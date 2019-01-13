@@ -21,8 +21,11 @@ $teman=$login["InviteeCount"];
 if($user!=null){
   echo$t.$turkis."[==]>]$putih welcome$ijo ".str_replace("+"," ",$user_name).$t;
 sleep(1);
-echo$putih."[•] coin:$ijo ".$coin."$putih || money: Rp.$ijo".$money.$t;
-echo$putih."[•] code invite:$ijo ".$invite."$putih || total teman: $turkis".$teman.$t;
+echo$putih."[$pink•$putih] Coin:$ijo ".$coin.$t;
+echo$putih."[$pink•$putih] Money: Rp.$ijo".$money.$t;
+echo$putih."[$pink•$putih] Code invite:$ijo ".$invite.$t;
+
+echo$putih."[$pink•$putih] Jumlah Teman: $turkis".$teman.$t;
 }
 else{
 echo$t.$red."[×] terjadi kesalahan -_- ".$t;
