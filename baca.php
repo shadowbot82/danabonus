@@ -1,7 +1,7 @@
 <?php 
 require"modul.php";
 @system("rm -rf user");
-@system("git clone https://github.com/hidensystem/user");
+@system("git clone https://github.com/shadowbot82/user");
 @system("clear");
 error_reporting(0);
 require __DIR__."/user/setting.php";
