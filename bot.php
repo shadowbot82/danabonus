@@ -12,7 +12,7 @@ echo$putih."[?] login ";
 loading();
 invite($header);
 echo"\n";
-echo $putih."[$ijo•$putih]$turkis Info Akun : ".$t;
+echo $putih."[".$ijo."•".$putih."]".$turkis." Info Akun : ".$t;
 $login=json_decode(login($header),true);
 $user=$login["UserId"];
 $coin=$login["Coin"];
@@ -78,6 +78,7 @@ elseif($error==10001){
 else{echo"[•] ".$error." terjadi kesalahan".$t;
 }
 sleep(3);
+	
 echo $ijo."delay 10 detik...".$t;
 echo$t.$putih."[•]$turkis membaca berita ".$t;
 sleep(1);
